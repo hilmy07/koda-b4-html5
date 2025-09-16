@@ -7,3 +7,7 @@ di dalamnya terdapat beberapa atribut :
 3. Jenis Kelamin: untuk mengetahui jenis kelamin pengguna
 4. pengguna rokok ya atau tidak: untuk mengetahui perokok atau bukan
 5. jenis rokok: untuk mengetahui jenis rokok apa yg dikonsumsi 
+
+<img width="673" height="400" alt="image" src="https://github.com/user-attachments/assets/28d0c945-3012-40bb-af49-d8f3e34cbd2f" />
+
+update tampilan tabel data
