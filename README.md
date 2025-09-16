@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="386" height="482" alt="image" src="https://github.com/user-attachments/assets/4234dd25-ecae-41e4-b800-a5f9b9b800e7" />
 
 Program tutorial membuat form menggunakan emmet untuk form survei perokok
 di dalamnya terdapat beberapa atribut :
