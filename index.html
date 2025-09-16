@@ -9,28 +9,32 @@
     <h1>Form Survei Perokok</h1>
     <!-- Emmet sintaks form>label+input -->
     <form action="">
-      <label for="">Siapa nama anda?</label><br />
-      <input type="text" />
+      <label for="nama">Siapa nama anda?</label><br />
+      <input type="text" id="nama" />
+
       <!-- Emmet sintaks br+label+br+input -->
       <br />
-      <label for="">Berapa umur anda?</label><br />
-      <input type="text" />
+      <label for="umur">Berapa umur anda?</label><br />
+      <input type="text" id="umur" />
+
       <!-- Emmet sintaks(br+label+br+(input[type="radio"])*2)*2 -->
       <br />
-      <label for="">Apa jenis kelamin anda?</label><br /><input
-        type="radio"
-      />Laki-laki<input type="radio" />Perempuan<br /><label for=""
-        >Apakah anda perokok?</label
-      ><br /><input type="radio" />Ya<input type="radio" />Tidak
+      <label for="jenis-kelamin">Apa jenis kelamin anda?</label><br />
+      <input type="radio" id="laki-laki" />Laki-laki
+      <input type="radio" id="perempuan" />Perempuan<br />
+
+      <label for="perokok">Apakah anda perokok?</label><br />
+      <input type="radio" id="yaPerokok" />Ya
+      <input type="radio" id="tidakPerokok" />Tidak
 
       <!-- Emmet sintaks br+label+br+(input[type="checkbox"]+br)*4 -->
-
       <br /><label for="">Jenis rokok yang dikonsumsi?</label><br />
-      <input type="checkbox" />Gudang Garam Filter<br />
-      <input type="checkbox" />Lucky Strike<br />
-      <input type="checkbox" />Marlboro<br />
-      <input type="checkbox" />Esse<br />
+      <input type="checkbox" id="gudang-garam-filter" />Gudang Garam Filter<br />
+      <input type="checkbox" id="lucky-strike" />Lucky Strike<br />
+      <input type="checkbox" id="marlboro" />Marlboro<br />
+      <input type="checkbox" id="esse" />Esse<br />
     </form>
+
     <!-- Emmet sintaks button[type="submit"]+button[type="reset"] -->
     <br />
     <button type="submit">Submit</button>
