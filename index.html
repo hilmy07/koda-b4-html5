@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form perokok</title>
+  </head>
+  <body>
+    <h1>Form Survei Perokok</h1>
+    <!-- Emmet sintaks form>label+input -->
+    <form action="">
+      <label for="">Siapa nama anda?</label><br />
+      <input type="text" />
+      <!-- Emmet sintaks br+label+br+input -->
+      <br />
+      <label for="">Berapa umur anda?</label><br />
+      <input type="text" />
+      <!-- Emmet sintaks(br+label+br+(input[type="radio"])*2)*2 -->
+      <br />
+      <label for="">Apa jenis kelamin anda?</label><br /><input
+        type="radio"
+      />Laki-laki<input type="radio" />Perempuan<br /><label for=""
+        >Apakah anda perokok?</label
+      ><br /><input type="radio" />Ya<input type="radio" />Tidak
+
+      <!-- Emmet sintaks br+label+br+(input[type="checkbox"]+br)*4 -->
+
+      <br /><label for="">Jenis rokok yang dikonsumsi?</label><br />
+      <input type="checkbox" />Gudang Garam Filter<br />
+      <input type="checkbox" />Lucky Strike<br />
+      <input type="checkbox" />Marlboro<br />
+      <input type="checkbox" />Esse<br />
+    </form>
+    <!-- Emmet sintaks button[type="submit"]+button[type="reset"] -->
+    <br />
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </body>
+</html>
